@@ -49,7 +49,7 @@ Pre analysing the data before the modelling gave interesting insights, that only
 
 *WordCLoud - Hate Speech*
 
-![image](https://user-images.githubusercontent.com/79086000/145720382-6de0654e-acd5-445e-87fc-d6500f4da49f.png){: width=200px}
+![image](https://user-images.githubusercontent.com/79086000/145720382-6de0654e-acd5-445e-87fc-d6500f4da49f.png | width=100)
 
 A look the most frequent used words in each sub-set - Hate Speech and other -  showed an overview of the content of each. While the topics of discussion were similar, ‚other‘ had a more balanced word choice, ‚Hate Speech‘ focused a lot on vulgar or biased language.
 
