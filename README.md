@@ -47,9 +47,9 @@ See the end of file for citation.
 
 Pre analysing the data before the modelling gave interesting insights, that only confirmed the research prior to the modelling. It was interesting to confirm a few pre-conceptions, such as the fact that Hate Speech targets specific group characteristics, such as ethnic origin and religion.
 
-*WordCLoud - Hate Spee*
+*WordCLoud - Hate Speech*
 
-![image](https://user-images.githubusercontent.com/79086000/145720382-6de0654e-acd5-445e-87fc-d6500f4da49f.png)
+![image](https://user-images.githubusercontent.com/79086000/145720382-6de0654e-acd5-445e-87fc-d6500f4da49f.png){: width=200px}
 
 A look the most frequent used words in each sub-set - Hate Speech and other -  showed an overview of the content of each. While the topics of discussion were similar, ‚other‘ had a more balanced word choice, ‚Hate Speech‘ focused a lot on vulgar or biased language.
 
@@ -72,7 +72,7 @@ Especially taking into account the f1 score as a a good metric for a heavily imb
 
 *Results:*
 
-![image](https://user-images.githubusercontent.com/79086000/145720505-8ff5e865-7550-4d2d-b628-349a0b0fb2a5.png){: width=200px}
+![image](https://user-images.githubusercontent.com/79086000/145720505-8ff5e865-7550-4d2d-b628-349a0b0fb2a5.png)
 
 *Confusion Matrix:*
 
