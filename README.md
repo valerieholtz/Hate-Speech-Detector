@@ -49,15 +49,13 @@ Pre analysing the data before the modelling gave interesting insights, that only
 
 *WordCLoud - Hate Speech*
 
-![image](https://user-images.githubusercontent.com/79086000/145720382-6de0654e-acd5-445e-87fc-d6500f4da49f.png)
-
-<img src="https://user-images.githubusercontent.com/79086000/145720382-6de0654e-acd5-445e-87fc-d6500f4da49f.png" width="500">
+<img src="https://user-images.githubusercontent.com/79086000/145720382-6de0654e-acd5-445e-87fc-d6500f4da49f.png" width="600">
 
 A look the most frequent used words in each sub-set - Hate Speech and other -  showed an overview of the content of each. While the topics of discussion were similar, ‚other‘ had a more balanced word choice, ‚Hate Speech‘ focused a lot on vulgar or biased language.
 
 *WordCLoud - neutral*
 
-![image](https://user-images.githubusercontent.com/79086000/145720397-6b3ec952-421c-4b00-869f-b92aada3409d.png)
+<img src="https://user-images.githubusercontent.com/79086000/145720397-6b3ec952-421c-4b00-869f-b92aada3409d.png" width="600">
 
 
 ## NLP Model overview
@@ -104,13 +102,3 @@ Wiegand, M., Siegel, M. and Ruppenhofer, J., 2018. Overview of the GermEval 2018
 
 https://hasocfire.github.io/hasoc/2019/dataset.html
 Mandl, T., Modha, S., Majumder, P., Patel, D., Dave, M., Mandlia, C. and Patel, A., 2019. Overview of the HASOC track at FIRE 2019.In: Proceedings of the 11th Forum for Information Retrieval Evaluation,.
-
-
-
-
-
-
-
-
-
-
