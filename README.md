@@ -37,6 +37,34 @@ A research approach on German Hate Speech Detection is described in the followin
 ## Data
 
 Due to the lack of a bigger German Hate Speech text corpus, one workaround was the combination of different, smaller annotated datasets that were made publicly available online, mostly from research projects on the topic. Through this I ended up with a German Hate Speech corpus of mostly tweets and posts from Facebook from the years 2016-2020. As expected with such a topic, the dataset was imbalanced with roughly 4 thousand cases of Hate Speech and 15 thousand cases of not Hate Speech labeled data.
+
 One problem I encountered in combining the different datasets was in the labelling of the classes.
 As Ross et all. (2017) stated, there is no clear definition on Hate Speech so the labeling varied from dataset to dataset, some working with a scale, some with binary classification etc.. I tried my best to smooth the labelling as much as possible to make a consistently labeled dataset with binary classification.
+
 See the end of file for citation.
+
+## Visual Analysis
+
+Pre analysing the data before the modelling gave interesting insights, that only confirmed the research prior to the modelling. It was interesting to confirm a few pre-conceptions, such as the fact that Hate Speech targets specific group characteristics, such as ethnic origin and religion.
+
+*WordCLoud - Hate Spee*
+
+![image](https://user-images.githubusercontent.com/79086000/145720382-6de0654e-acd5-445e-87fc-d6500f4da49f.png)
+
+A look the most frequent used words in each sub-set - Hate Speech and other -  showed an overview of the content of each. While the topics of discussion were similar, ‚other‘ had a more balanced word choice, ‚Hate Speech‘ focused a lot on vulgar or biased language.
+
+*WordCLoud - neutral*
+
+![image](https://user-images.githubusercontent.com/79086000/145720397-6b3ec952-421c-4b00-869f-b92aada3409d.png)
+
+
+
+
+
+
+
+
+
+
+
+
