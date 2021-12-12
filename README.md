@@ -40,7 +40,7 @@ Due to the lack of a bigger German Hate Speech text corpus, one workaround was t
 
 ![Bildschirmfoto 2021-12-12 um 17 36 41](https://user-images.githubusercontent.com/79086000/145720998-9481dc37-4a45-4bbc-ad7e-d90f6142c79d.png)
 
-<img src="https://user-images.githubusercontent.com/79086000/145720998-9481dc37-4a45-4bbc-ad7e-d90f6142c79d.png" width="600">
+<img src="https://user-images.githubusercontent.com/79086000/145720998-9481dc37-4a45-4bbc-ad7e-d90f6142c79d.png" width="350">
 
 One problem I encountered in combining the different datasets was in the labelling of the classes.
 As Ross et all. (2017) stated, there is no clear definition on Hate Speech so the labeling varied from dataset to dataset, some working with a scale, some with binary classification etc.. I tried my best to smooth the labelling as much as possible to make a consistently labeled dataset with binary classification.
