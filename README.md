@@ -72,8 +72,6 @@ Especially taking into account the f1 score as a a good metric for a heavily imb
 
 *Results:*
 
-![image](https://user-images.githubusercontent.com/79086000/145720505-8ff5e865-7550-4d2d-b628-349a0b0fb2a5.png)
-
 <img src="https://user-images.githubusercontent.com/79086000/145720505-8ff5e865-7550-4d2d-b628-349a0b0fb2a5.png" width="350">
 
 *Confusion Matrix:*
