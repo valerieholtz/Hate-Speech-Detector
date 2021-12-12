@@ -58,6 +58,50 @@ A look the most frequent used words in each sub-set - Hate Speech and other -  s
 ![image](https://user-images.githubusercontent.com/79086000/145720397-6b3ec952-421c-4b00-869f-b92aada3409d.png)
 
 
+## NLP Model overview
+
+Bert Model
+
+My main goal in the data modeling phase was to compare different pre trained models and find the best for the task. A good solution to do this, especially in languages other than English is the Transformers library by HuggingFace. This gives a wide range of transformer-based pre-trained models in different languages. Exactly  I used the Simple Transformers library, which is built on top of the transformers library
+The notebooks containing the models involves fine-tuning a Bert model. Due to the imbalanced dataset, the most important Hyperparameter to tune was the weight parameter. 4 models were fine tuned and tested for performance on the dataset. 
+The model „deepset/bert-base-german-cased-sentiment-Germeval17" gave the best results with the following hyperparameters.
+
+![image](https://user-images.githubusercontent.com/79086000/145720480-d6ca9ec5-298f-4b4c-8f4d-04c2ac8a18f6.png)
+
+Especially taking into account the f1 score as a a good metric for a heavily imbalanced dataset and the model’s handling of the positive Hate Speech examples, seen in the AUPRC score and the confusion matrix.
+
+*Results:*
+
+![image](https://user-images.githubusercontent.com/79086000/145720505-8ff5e865-7550-4d2d-b628-349a0b0fb2a5.png)
+
+*Confusion Matrix:*
+
+![image](https://user-images.githubusercontent.com/79086000/145720517-9b52aa70-0d1c-49b5-be8e-4bdb33e4b5d7.png)
+
+## Evaluation
+
+As it was the goal to detect complex cases of Hate Speech, for the model evaluation the performance on fitting real life examples was taking into account. As expected with the f1 and AUPRC score, „deepset/bert-base-german-cased-sentiment-Germeval17“ performed best on examples as the following: 
+
+![image](https://user-images.githubusercontent.com/79086000/145720530-0fd4bb02-03b8-4dd2-a8cf-15cf946ef0a5.png)
+
+## Sources
+
+I would like to thank everyone involved in the development of the datasets, which were incredibly well done. This project would not have been possible without a nicely collected and cleaned-up data.
+
+The datasets can be found here: 
+
+https://github.com/UCSM-DUE/IWG_hatespeech_public
+Ross, B., Rist, M., Carbonell, G., Cabrera, B., Kurowsky, N. and Wojatzki, M., 2017. Measuring the Reliability of Hate SpeechAnnotations: The Case of the European Refugee Crisis. ArXiv,.
+
+
+http://ub-web.de/research/
+Bretschneider, U. and Peters, R., 2017. Detecting Offensive Statements towards Foreigners in Social Media. In: Proceedings of the 50thHawaii International Conference on System Sciences.
+
+https://github.com/uds-lsv/GermEval-2018-Data
+Wiegand, M., Siegel, M. and Ruppenhofer, J., 2018. Overview of the GermEval 2018 Shared Task on the Identification of OffensiveLanguage. In: Proceedings of GermEval 2018, 14th Conference on Natural Language Processing (KONVENS 2018). Vienna, Austria: Research Gate.
+
+https://hasocfire.github.io/hasoc/2019/dataset.html
+Mandl, T., Modha, S., Majumder, P., Patel, D., Dave, M., Mandlia, C. and Patel, A., 2019. Overview of the HASOC track at FIRE 2019.In: Proceedings of the 11th Forum for Information Retrieval Evaluation,.
 
 
 
