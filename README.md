@@ -47,26 +47,25 @@ As Ross et all. (2017) stated, there is no clear definition on Hate Speech, so t
 
 Pre analysing the data before the modelling gave interesting insights, that only confirmed the research prior to the modelling. A look at the most frequent used words in each sub-set - 'Hate Speech' and 'other' -  showed an overview of the content of each. While the topics of discussion in both categories were similar, 'other' had a more balanced word choice, whereaas 'Hate Speech' focused a lot on vulgar or biased language. With this it was interesting to confirm a few pre-conceptions, such as the fact that Hate Speech targets specific group characteristics like ethnic origin and religion.
 
-*WordCLoud - Hate Speech*
+*WordCloud - Hate Speech*
 
 <img src="https://user-images.githubusercontent.com/79086000/145720382-6de0654e-acd5-445e-87fc-d6500f4da49f.png" width="600">
 
-*WordCLoud - neutral*
+*WordCloud - neutral*
 
 <img src="https://user-images.githubusercontent.com/79086000/145720397-6b3ec952-421c-4b00-869f-b92aada3409d.png" width="600">
 
 
 ## NLP Model overview
 
-Bert Model
-
-My main goal in the data modeling phase was to compare different pre trained models and find the best for the task. A good solution to do this, especially in languages other than English is the Transformers library by HuggingFace. This gives a wide range of transformer-based pre-trained models in different languages. Exactly  I used the Simple Transformers library, which is built on top of the transformers library
-The notebooks containing the models involves fine-tuning a Bert model. Due to the imbalanced dataset, the most important Hyperparameter to tune was the weight parameter. 4 models were fine tuned and tested for performance on the dataset. 
-The model „deepset/bert-base-german-cased-sentiment-Germeval17" gave the best results with the following hyperparameters.
+The main goal in the data modeling phase was to compare different pre trained models and find the best for the task. A good solution to do this, especially in languages other than English is the Transformers library by HuggingFace, as they give a wide range of transformer-based pre-trained models in different languages. Exactly, I used the Simple Transformers library, which is built on top of the transformers library.
+The notebooks containing the models involves fine-tuning a Bert model. Due to the imbalanced dataset, the most important Hyperparameter to tune was the weight parameter. 4 models were fine tuned and tested for performance on the dataset. The model „deepset/bert-base-german-cased-sentiment-Germeval17" gave the best results with the following hyperparameters.
 
 ![image](https://user-images.githubusercontent.com/79086000/145720480-d6ca9ec5-298f-4b4c-8f4d-04c2ac8a18f6.png)
 
-Especially taking into account the f1 score as a a good metric for a heavily imbalanced dataset and the model’s handling of the positive Hate Speech examples, seen in the AUPRC score and the confusion matrix.
+## Evaluation
+
+For evauation the f1 score as a a good metric for a heavily imbalanced dataset and the AUPRC score and confusion matrix showing the model’s handling of the positive Hate Speech examples, was taken into account.
 
 *Results:*
 
@@ -75,8 +74,6 @@ Especially taking into account the f1 score as a a good metric for a heavily imb
 *Confusion Matrix:*
 
 ![image](https://user-images.githubusercontent.com/79086000/145720517-9b52aa70-0d1c-49b5-be8e-4bdb33e4b5d7.png)
-
-## Evaluation
 
 As it was the goal to detect complex cases of Hate Speech, for the model evaluation the performance on fitting real life examples was taking into account. As expected with the f1 and AUPRC score, „deepset/bert-base-german-cased-sentiment-Germeval17“ performed best on examples as the following: 
 
