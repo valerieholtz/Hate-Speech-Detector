@@ -45,13 +45,11 @@ As Ross et all. (2017) stated, there is no clear definition on Hate Speech, so t
 
 ## Visual Analysis
 
-Pre analysing the data before the modelling gave interesting insights, that only confirmed the research prior to the modelling. It was interesting to confirm a few pre-conceptions, such as the fact that Hate Speech targets specific group characteristics, such as ethnic origin and religion.
+Pre analysing the data before the modelling gave interesting insights, that only confirmed the research prior to the modelling. A look the most frequent used words in each sub-set - Hate Speech and other -  showed an overview of the content of each. While the topics of discussion were similar, ‚other‘ had a more balanced word choice, ‚Hate Speech‘ focused a lot on vulgar or biased language. It was interesting to confirm a few pre-conceptions, such as the fact that Hate Speech targets specific group characteristics, such as ethnic origin and religion.
 
 *WordCLoud - Hate Speech*
 
 <img src="https://user-images.githubusercontent.com/79086000/145720382-6de0654e-acd5-445e-87fc-d6500f4da49f.png" width="600">
-
-A look the most frequent used words in each sub-set - Hate Speech and other -  showed an overview of the content of each. While the topics of discussion were similar, ‚other‘ had a more balanced word choice, ‚Hate Speech‘ focused a lot on vulgar or biased language.
 
 *WordCLoud - neutral*
 
