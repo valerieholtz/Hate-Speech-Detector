@@ -41,7 +41,7 @@ Due to the lack of a bigger German Hate Speech text corpus, one workaround was t
 <img src="https://user-images.githubusercontent.com/79086000/145720998-9481dc37-4a45-4bbc-ad7e-d90f6142c79d.png" width="300">
 
 One problem I encountered in combining the different datasets was in the labelling of the classes.
-As Ross et all. (2017) stated, there is no clear definition on Hate Speech, so the labeling varied from dataset to dataset. Some working with a scale, some with binary classification or diferentiating between abuse and profanity etc. I tried my best to smooth the labelling as much as possible to make a consistently labeled dataset with binary classification. See the end of file for citation.
+As Ross et all. (2017) stated, there is no clear definition on Hate Speech, so the labeling varied from dataset to dataset - some working with a scale, some with binary classification or differentiating between abuse and profanity etc. I tried my best to smooth the labelling as much as possible to make a consistently labeled dataset with binary classification. See the end of file for citation and more information on the authors.
 
 ## Visual Analysis
 
