@@ -65,17 +65,17 @@ The notebooks containing the models involves fine-tuning a Bert model. Due to th
 
 ## Evaluation
 
-For evauation the f1 score as a a good metric for a heavily imbalanced dataset and the AUPRC score and confusion matrix showing the model’s handling of the positive Hate Speech examples, was taken into account.
+For evaluation, the f1 score as a a good metric for a heavily imbalanced dataset and the AUPRC score and confusion matrix showing the model’s handling of the positive Hate Speech examples, was taken into account.
 
-*Results:*
+*Results*
 
 <img src="https://user-images.githubusercontent.com/79086000/145720505-8ff5e865-7550-4d2d-b628-349a0b0fb2a5.png" width="350">
 
-*Confusion Matrix:*
+*Confusion Matrix*
 
 ![image](https://user-images.githubusercontent.com/79086000/145720517-9b52aa70-0d1c-49b5-be8e-4bdb33e4b5d7.png)
 
-As it was the goal to detect complex cases of Hate Speech, for the model evaluation the performance on fitting real life examples was taking into account. As expected with the f1 and AUPRC score, „deepset/bert-base-german-cased-sentiment-Germeval17“ performed best on examples as the following: 
+As it was the goal to detect complex cases of Hate Speech, the model's performance on such real life examples was tested. As expected with the best f1 and AUPRC score, „deepset/bert-base-german-cased-sentiment-Germeval17“ performed best on cases as the following: 
 
 ![image](https://user-images.githubusercontent.com/79086000/145720530-0fd4bb02-03b8-4dd2-a8cf-15cf946ef0a5.png)
 
