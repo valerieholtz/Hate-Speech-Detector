@@ -12,7 +12,7 @@ Components of the project:
 
 ## Goal
 
-The goal of this project is to train a model that detects complex cases of Hate Speech. This means cases, that do not necessarily contain vulgar language, but are nonetheless extremely aggressive against individuals or a group of people.
+The goal of this project is to train a model that detects complex cases of Hate Speech. This means correctly detecting cases, that do not necessarily contain vulgar language, but are nonetheless extremely aggressive against individuals or a group of people.
 
 ## Key words
 
