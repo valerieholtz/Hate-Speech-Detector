@@ -12,7 +12,7 @@ Components of the project:
 
 ## Goal
 
-The goal of this project is to train a model that detects complex cases of Hate Speech, meaning cases that do not necessarily contain vulgar language, but are nonetheless extremely aggressive against individuals or a group of people.
+The goal of this project is to train a model that detects complex cases of Hate Speech. This means cases, that do not necessarily contain vulgar language, but are nonetheless extremely aggressive against individuals or a group of people.
 
 ## Key words
 
@@ -32,7 +32,7 @@ GoogleCollab
 
 ## Background
 
-A research approach on German Hate Speech Detection is described in the following paper: https://arxiv.org/pdf/1701.08118.pdf. The last years have seen an increase of Hate Speech in Social Media and a need for automated detection and filtering of such. Although there is no universally agreed upon definition what Hate Speech is, in the following project it can be seen as „abusive speech targeting specific group characteristics. such as ethnic origin, religion, gender or sexual orientation.“ (Ross et al., 2017, p. 2) A general problem in this field is the complexity of the topic. Detecting Hate Speech is more than just detecting swear words. What is considered Hate Speech can be personal interpretation, depends on someones background and personal sensibilities. As such, classifying Hate Speech is not a straight forward task. An issue researchers  encounter when labelling the data. Another problem one encounters when trying to detect Hate Speech in languages other than English is the  lack of annotated datasets and puplicly available work done. A problem that is also really prevent for the German language. ibid., p.2f.)
+The last years have seen an increase of Hate Speech in Social Media and a need for automated detection and filtering of such. A research approach on German Hate Speech Detection that was used as a theoretical guideline for this projectis described in the following paper: https://arxiv.org/pdf/1701.08118.pdf. Although there is no universally agreed upon definition what Hate Speech is, in the following project it can be seen as „abusive speech targeting specific group characteristics. such as ethnic origin, religion, gender or sexual orientation.“ (Ross et al., 2017, p. 2) A general problem in this field is the complexity of the topic. Detecting Hate Speech is more than just detecting vulgar language. What is considered Hate Speech can be personal interpretation, can depend on someones background and personal sensibilities. As such, classifying Hate Speech is not a straight forward task. An issue researchers  encounter when labelling the data. Another problem one encounters when trying to detect Hate Speech in languages other than English is the  lack of annotated datasets and puplicly available work done. A problem that is also really prevent for the German language. ibid., p.2f.)
 
 ## Data
 
