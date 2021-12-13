@@ -2,7 +2,7 @@
 
 ## Description
 
-This project develops a model for binary classification on German language Hate Speech sentences in Social Media. To accomplish this I am using the Bert (Bidirectional Encoder Representations from Transformers) language model. 
+This project develops a model for binary classification on German language Hate Speech sentences in Social Media. To accomplish this, I am using the Bert (Bidirectional Encoder Representations from Transformers) language model. 
 
 Components of the project:
 - A notebook with data preparation and EDA on the dataset found in Data_Wrangling.ipynb and EDA.ipynb.
