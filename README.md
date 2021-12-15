@@ -81,7 +81,7 @@ As it was the goal to detect complex cases of Hate Speech, the model's performan
 
 ## Sources
 
-I would like to thank everyone involved in the development of the datasets, which were incredibly well done. This project would not have been possible without a nicely collected and cleaned-up data.
+I would like to thank everyone involved in the development of such nicely collected and cleaned-up data datasets. This project would not have been possible without it.
 
 The datasets can be found here: 
 
