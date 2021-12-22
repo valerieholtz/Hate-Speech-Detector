@@ -16,19 +16,13 @@ The goal of this project is to train a model that detects complex cases of Hate 
 
 ## Key words
 
-Python
-
-NLP
-
-BERT
-
-SimpleTransformers
-
-HuggingFace
-
-Text Classification
-
-GoogleCollab
+- Python
+- NLP
+- BERT
+- SimpleTransformers
+- HuggingFace
+- Text Classification
+- GoogleCollab
 
 ## Background
 
