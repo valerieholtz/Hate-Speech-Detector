@@ -90,4 +90,4 @@ https://github.com/uds-lsv/GermEval-2018-Data
 Wiegand, M., Siegel, M. and Ruppenhofer, J., 2018. Overview of the GermEval 2018 Shared Task on the Identification of OffensiveLanguage. In: Proceedings of GermEval 2018, 14th Conference on Natural Language Processing (KONVENS 2018). Vienna, Austria: Research Gate.
 
 https://hasocfire.github.io/hasoc/2019/dataset.html
-Mandl, T., Modha, S., Majumder, P., Patel, D., Dave, M., Mandlia, C. and Patel, A., 2019. Overview of the HASOC track at FIRE 2019.In: Proceedings of the 11th Forum for Information Retrieval Evaluation,.
+Mandl, T., Modha, S., Majumder, P., Patel, D., Dave, M., Mandlia, C. and Patel, A., 2019. Overview of the HASOC track at FIRE 2019.In: Proceedings of the 11th Forum for Information Retrieval Evaluation.
